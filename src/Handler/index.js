@@ -1,13 +1,14 @@
 import MockQuizz from '../Component/MockQuizz';
+import CheckboxList from '../Component/CheckBox';
 
-
-function App() {
-if (MockQuizz.question.questionOne[1] === MockQuizz.answer.answerOne) {
-  console.log("coucou");
-}
+function Handler() {
+//if (MockQuizz.question.questionOne[1] === MockQuizz.answer.answerOne) {
+  //console.log("coucou");
+//}
 
   return (
     <div >
+      <CheckboxList/>
       <button>
         Test
       </button>
@@ -15,4 +16,4 @@ if (MockQuizz.question.questionOne[1] === MockQuizz.answer.answerOne) {
   );
 }
 
-export default App;
+export default Handler;
