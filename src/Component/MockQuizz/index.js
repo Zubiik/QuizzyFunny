@@ -1,14 +1,7 @@
 
 
-var mockQuizz = {
-question:{
-   questionOne:["string","trueString","string"],
-   questionTwo:["string","string","trueString"],
-},
-answer:{
-   answerOne:"trueString",
-   answerTwo:"trueString",
-}
-};
+var mockQuizz = [
+"string","trueString","string"]
+
 
 export default mockQuizz;
